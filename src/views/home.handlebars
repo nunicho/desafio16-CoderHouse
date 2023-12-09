@@ -7,14 +7,14 @@
         <h2>Bienvenido, Usuario {{usuario.nombre}}!</h2>
     {{/ifEquals}}
     {{#ifEquals usuario.role 'premium'}}
-        <h2>Bienvenido, Usuario {{usuario.nombre}}!</h2>
+        <h2>Bienvenido, Usuario Premium {{usuario.nombre}}!</h2>
     {{/ifEquals}}
     
 
     <h2>{{titlePage}}</h2>
     <hr>  
     <br>
-    {{>menu}}
+ 
 
     {{#ifEquals usuario.role 'administrador'}}
         <div>
@@ -43,12 +43,12 @@
               <a href="/api/users/premium/{{usuario.id}}">Cambiar Rol</a>
         </div>
     {{/ifEquals}}
-
+  
 
   <label for="cartId">ID del Carrito:</label>
     <input type="text" id="cartId" placeholder="Ingrese el ID del carrito" oninput="toggleSubmitButton(); updateCartLink();">
     <button onclick="verDetalleCart();" disabled>Explorar Carrito</button>
-
+ {{>menu}}
     <script>
         function toggleSubmitButton() {
             const cartIdInput = document.getElementById("cartId");

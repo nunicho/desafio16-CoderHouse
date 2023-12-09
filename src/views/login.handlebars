@@ -1,9 +1,10 @@
-<h1>Ferretería El Tornillo - Menú de Login</h1>
+<h1> Bienvenido a Look8bit - Menú de Login</h1>
 <hr>
 
+<h2>  USUARIOS </h2>
+<hr>
 <h3>Ingresar con GitHub</h3>
-
-<a class="github-button" href="/api/sessions/github">GITHUB</a>
+<a class="login-button" href="/api/sessions/github">GITHUB</a>
 
 <hr>
 <h3>Ingresar con Usuario Local</h3>
@@ -19,28 +20,29 @@
   <div class="error">{{errorDetalle}}</div>
 {{/if}}
 
-        {{#if usuarioCreado}}
-            <div class="success">Se ha creado correctamente el usuario {{usuarioCreadoDetalle}}</div>
-        {{/if}}
+{{#if usuarioCreado}}
+    <div class="success">Se ha creado correctamente el usuario {{usuarioCreadoDetalle}}</div>
+{{/if}}
 
     {{!-- {{#if logoutExitoso}}
         <div class="mensaje">Se ha creado correctamente el usuario {{usuarioCreadoDetalle}}</div>
     {{/if}} --}}
 
-    <input type="email" name="email" placeholder="email">   
-    <input type="password" name="password" placeholder="password">  
-    <input type="submit" value="Login" class="login-button">
-    <!-- Botón "Olvidé mi Password" -->
-     <a href="/forgotPassword"  class="forgot-password-button">Olvidé mi Password</a>
+<input type="email" name="email" placeholder="email">   
+<input type="password" name="password" placeholder="password"> 
+    
+<button type="submit" value="Login" class="login-button">Login</button>     
+<a  href="/forgotPassword"  class="login-button">Olvidé mi Password</a>
+<a href="/registro" class="login-button">Quiero registrarme</a>
 </form>
 
 <hr>
 
-<h3>Administrador</h3>
+<h2>ADMINISTRADORES</h2>
 
-<a class="admin-button" href="/loginAdmin"> Login como Administrador</a>
-   <br>
-    {{>menu}}
+<a class="login-button" href="/loginAdmin"> Login como Administrador</a>
+<br>
+
 
 
 
