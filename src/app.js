@@ -1,6 +1,8 @@
 
 
 const express = require("express");
+const swagger_jsdoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
 const fs = require("fs");
 const http = require("http");
 const socketIO = require("socket.io");
@@ -9,6 +11,11 @@ const MessageModel = require("./dao/DB/models/messages.modelo.js");
 const moongose = require("mongoose");
 const path = require("path");
 const cookieParser = require("cookie-parser");
+
+
+
+
+const app = express();
 
 //MANEJO DE ERRORES
 const errorHandler = require("./middleware/errorHandler.js");
@@ -37,13 +44,31 @@ const handlebars = require("express-handlebars");
 
 const PORT = config.PORT;
 
-const app = express();
 
 // LOGGER
 const { middLog } = require("./util.js");
 app.use(middLog);
 
 
+
+
+//SWAGGER
+
+const options = {
+  definition: {
+    openapi: "3.0.0",
+    info: {
+      title: "API abm Productos",
+      version: "1.0.0",
+      description: "Documentación del proyect API abm Productos",
+    },
+  },
+  apis: ["./docs/Products.yaml"],
+};
+
+const specs = swagger_jsdoc(options);
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
