@@ -6,23 +6,24 @@ const fs = require("fs");
 const mongoose = require("mongoose");
 
 // CONECCION A MONGODB
-const productosController = require("../controllers/productos.controller.js")
+const productosController = require("../controllers/productos.controller.js");
 const productosModelo = require("../dao/DB/models/productos.modelo");
+const tiposDeError = require("../utils/tiposDeError.js");
 
 //------------------------------------------------------------------------ PETICION GET
 
 router.get("/", async (req, res) => {
-  let productosDB = await productosModelo.find();
-
-  const limit = parseInt(req.query.limit) || productosDB.length;
-  const limitedData = productosDB.slice(0, limit);
-  res.setHeader("Content-Type", "application/json");
-  res.status(200).json({ limitedData });
+  try {
+    const productos = await productosController.listarProductos(req, res);
+    res.setHeader("Content-Type", "application/json");
+    res.status(200).json({ productos });
+  } catch (error) {
+    console.error("Error al procesar la solicitud:", error);
+    res.status(500).json({ error: "Error interno del servidor" });
+  }
 });
 
-
 //------------------------------------------------------------------------ PETICION GET con /:ID
-
 
 router.get("/:id", async (req, res) => {
   let id = req.params.id;
@@ -30,7 +31,7 @@ router.get("/:id", async (req, res) => {
   if (!mongoose.Types.ObjectId.isValid(id))
     return res.status(400).json({ error: "id inválido" });
 
-  let productoDB = await productosController.listarProductos(id);
+  let productoDB = await productosModelo.findById(id);
 
   if (!productoDB)
     return res.status(404).json({ error: `Producto con id ${id} inexistente` });
@@ -38,7 +39,7 @@ router.get("/:id", async (req, res) => {
   res.status(200).json({ productoDB });
 });
 
-
+module.exports = router;
 
 //------------------------------------------------------------------------ PETICION POST
 
@@ -97,7 +98,6 @@ router.put("/:id", async (req, res) => {
       .json({ error: `Ya existe otro producto con code ${modifica.code}` });
 
   let existe = await productosModelo.findById(id);
-  
 
   if (!existe)
     return res.status(404).json({ error: `Producto con id ${id} inexistente` });
@@ -120,7 +120,7 @@ router.delete("/:id", async (req, res) => {
   let resultado = await productosModelo.deleteOne({ _id: id });
 
   res.status(200).json({ resultado });
- // res.redirect("/DBproducts");
+  // res.redirect("/DBproducts");
 });
 
 module.exports = router;
