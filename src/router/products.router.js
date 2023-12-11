@@ -25,21 +25,39 @@ router.get("/", async (req, res) => {
 
 //------------------------------------------------------------------------ PETICION GET con /:ID
 
-router.get("/:id", async (req, res) => {
-  let id = req.params.id;
-
-  if (!mongoose.Types.ObjectId.isValid(id))
-    return res.status(400).json({ error: "id inválido" });
-
-  let productoDB = await productosModelo.findById(id);
-
-  if (!productoDB)
-    return res.status(404).json({ error: `Producto con id ${id} inexistente` });
-
-  res.status(200).json({ productoDB });
+router.get("/:id", productosController.obtenerProducto, (req, res) => {
+  try {
+    const productoDB = res.locals.productoDB;
+    if (!productoDB) {
+      return res.status(404).send("Producto no encontrado");
+    }
+    res.header("Content-type", "application/json");
+    res.status(200).json({ productoDB });
+    // req.logger.info(
+    //   `Acceso exitoso a detalle producto Id: ${productoDB._id} - Nombre: ${productoDB.title}`
+    // );
+  } catch (error) {
+    res.status(500).json({ error: "Error interno del servidor" });
+    // req.logger.error(
+    //   `Error al abrir detalle de producto - Detalle: ${error.message}`
+    // );
+  }
 });
 
-module.exports = router;
+// router.get("/:id", async (req, res) => {
+//   let id = req.params.id;
+
+//   if (!mongoose.Types.ObjectId.isValid(id))
+//     return res.status(400).json({ error: "id inválido" });
+
+//   let productoDB = await productosModelo.findById(id);
+
+//   if (!productoDB)
+//     return res.status(404).json({ error: `Producto con id ${id} inexistente` });
+
+//   res.status(200).json({ productoDB });
+// });
+
 
 //------------------------------------------------------------------------ PETICION POST
 
