@@ -104,7 +104,7 @@ const FSproductsRouter = require("./dao/fileSystem/routes/FSproducts.router.js")
 const FScartsRouter = require("./dao/fileSystem/routes/FScarts.router.js");
 
 // Routers de MongoDB (DB)
-const productsRouter = require("./dao/DB/routes/DBproducts.router");
+const productsRouter = require("./router/products.router.js");
 const cartsRouter = require("./router/carts.router.js");
 
 // Router de Handlebars

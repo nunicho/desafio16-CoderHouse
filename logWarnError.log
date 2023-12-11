@@ -766,3 +766,10 @@
 {"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:18:59.832Z"}
 {"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:54:21.132Z"}
 {"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:56:39.531Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T21:49:06.811Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-10T21:49:15.281Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:49:18.752Z"}
+{"level":"info","message":"Producto creado correctamente - Id: TA-1801 Nombre: PRUEBA","timestamp":"2023-12-10T21:49:43.613Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:49:50.561Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:52:14.636Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:52:19.512Z"}
