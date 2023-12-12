@@ -778,3 +778,13 @@
 {"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-11T20:34:59.295Z"}
 {"level":"info","message":"Producto creado correctamente - Id: VideoGame-1 Nombre: Family Game Clásico","timestamp":"2023-12-12T01:02:04.504Z"}
 {"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\products.router.js:74:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-12T02:02:48.600Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-12T03:57:09.043Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-12T03:57:11.859Z"}
+{"level":"info","message":"Inicio de sesión exitoso como administrador - Administrador: adminCoderPrueba@coder.com","timestamp":"2023-12-12T03:57:36.174Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T03:57:39.528Z"}
+{"level":"info","message":"Producto de nombre Atari Gris Oscuro editado correctamente","timestamp":"2023-12-12T03:57:51.858Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T03:57:52.265Z"}
+{"level":"info","message":"Producto de nombre Atari Gris Perla editado correctamente","timestamp":"2023-12-12T04:36:05.207Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T04:36:06.635Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T04:43:56.002Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574bb0e0b46a1b44e031eab - Nombre: Atari Gris Oscuro","timestamp":"2023-12-12T04:46:29.366Z"}

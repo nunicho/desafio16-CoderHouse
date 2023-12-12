@@ -54,38 +54,11 @@ router.post("/", async (req, res) => {
 //------------------------------------------------------------------------ PETICION PUT
 
 router.put("/:id", async (req, res) => {
-  let id = req.params.id;
-  if (!mongoose.Types.ObjectId.isValid(id))
-    return res.status(400).json({ error: "id inválido" });
-
-  let modifica = req.body;
-
-  if (
-    !modifica.title ||
-    !modifica.description ||
-    !modifica.price ||
-    !modifica.thumbnail ||
-    !modifica.code ||
-    !modifica.stock
-  )
-    return res.status(400).json({ error: "Faltan datos" });
-
-  let validaCode = await productosModelo.findOne({
-    code: modifica.code,
-    _id: { $ne: id },
-  });
-  if (validaCode)
-    return res
-      .status(400)
-      .json({ error: `Ya existe otro producto con code ${modifica.code}` });
-
-  let existe = await productosModelo.findById(id);
-
-  if (!existe)
-    return res.status(404).json({ error: `Producto con id ${id} inexistente` });
-  let resultado = await productosModelo.updateOne({ _id: id }, modifica);
-
-  res.status(200).json({ resultado });
+  try {
+    await productosController.editarProducto(req, res);
+  } catch (error) {
+    res.status(500).json({ error: "Error inesperado", detalle: error.message });
+  }
 });
 
 //------------------------------------------------------------------------ PETICION DELETE
