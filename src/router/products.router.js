@@ -64,18 +64,11 @@ router.put("/:id", async (req, res) => {
 //------------------------------------------------------------------------ PETICION DELETE
 
 router.delete("/:id", async (req, res) => {
-  let id = req.params.id;
-  if (!mongoose.Types.ObjectId.isValid(id))
-    return res.status(400).json({ error: "id inválido" });
-
-  let existe = await productosModelo.findById(id);
-
-  if (!existe)
-    return res.status(404).json({ error: `Producto con id ${id} inexistente` });
-  let resultado = await productosModelo.deleteOne({ _id: id });
-
-  res.status(200).json({ resultado });
-  // res.redirect("/DBproducts");
+  try {
+    await productosController.borrarProducto(req, res);
+  } catch (error) {
+    res.status(500).json({ error: "Error inesperado", detalle: error.message });
+  }
 });
 
 module.exports = router;
