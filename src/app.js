@@ -63,7 +63,7 @@ const options = {
       description: "Documentación del proyect API abm Productos",
     },
   },
-  apis: ["./docs/Products.yaml"],
+  apis: ["./docs/*.yaml"],
 };
 
 const specs = swagger_jsdoc(options);
