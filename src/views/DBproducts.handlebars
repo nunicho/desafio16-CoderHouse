@@ -11,7 +11,7 @@
   <button id="finalizarCompra">Finalizar Compra</button>
 </div>
 
-<h1>Lista de productos en Base de Datos</h1>
+<h1>Lista de productos en nuestro catálogo</h1>
 
 <form action="/DBproducts" method="GET" id="filtroForm">
   <label for="filtro">Filtrar por nombre:</label>
@@ -41,25 +41,28 @@
 {{#if hasProducts}}
  <div class="grid">
         {{#each productos }}
-        <article class="card product-item">
-             <header class="card__header">
-                <h2 class="product__title">{{ this.title}}</h2>
-            </header>
-            <div class="card__image">
-                <img class="dbimg"src={{this.thumbnail}}
-                    alt="{{this.title}}">
-            </div>
-            <div>
-                <h3>${{this.price}}</h3>
-            </div>
-        </article> 
-        <a href="DBProducts/{{ this._id }}">Más detalles</a>        
+      
+      
+      <aside class="card card2">
+          <div class="containerImgMenu">
+          <img class="dbimg" src={{this.thumbnail}} alt={{ this.title}}/>
+        </div>
+        <div class="containerIngredientes">
+        <h3 class="textotituloMenu">{{ this.title}}</h3>
+          <h4 class="textotituloMenu">Precio: $ {{this.price}} </h4>
+          <p> Stock: {{this.stock}}</p>
+        </div>
+         <a href="DBProducts/{{ this._id }}">Más detalles</a>        
         <a href="#" data-product-id="{{ this._id }}" data-product-name="{{ this.title }}" data-product-price="{{ this.price }}">Agregar al Carrito</a>
+      </aside>       
+       
         {{/each }}
     {{else}}
     <h1> ¡No se encontraron productos! </h1>
     {{/if}}
 <br>
+ </div> 
+ <div>
   <a href="/DBProducts?pagina=1">Pág. 1</a>
 
   {{#if hasPrevPage}}
@@ -75,7 +78,8 @@
   {{/if}}
 
     <a href="/DBProducts?pagina={{totalPages}}">Ult. página</a>
- </div> 
+
+ </div>
 
 <!-- Ventana modal para AGREGAR PRODUCTOS -->
 <div id="modal" class="modal">

@@ -568,4 +568,275 @@
 {"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-07T05:06:53.699Z"}
 {"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-07T05:06:55.089Z"}
 {"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-07T05:07:01.620Z"}
-{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:47:21.651Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:21:43.814Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:22:12.165Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:23:23.037Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:23:31.843Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:24:29.436Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:36:30.230Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:36:54.411Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:39:18.240Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:39:58.920Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:40:17.296Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:40:21.070Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:40:26.895Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-09T02:40:30.655Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:41:12.502Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:41:36.926Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:41:53.580Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T02:42:15.754Z"}
+{"level":"info","message":"Acceso exitoso al perfil - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T02:44:04.522Z"}
+{"level":"info","message":"Logout exitoso - Mail: mauricio@gmail.com ","timestamp":"2023-12-09T02:44:18.794Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:44:18.984Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-09T02:44:20.975Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-09T02:44:37.339Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-09T02:44:54.154Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:44:55.895Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:45:53.765Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:46:17.452Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:18.550Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:21.028Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:24.255Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:47.927Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:56.628Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:47:59.976Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:48:04.165Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:48:07.115Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:48:09.708Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:48:21.006Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T02:48:29.172Z"}
+{"level":"info","message":"Logout exitoso - Mail: mauricio@gmail.com ","timestamp":"2023-12-09T02:48:56.294Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:48:56.483Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:49:25.282Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:49:44.571Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:16.671Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:18.922Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:20.820Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:23.097Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:26.660Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:50:33.759Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:52:33.060Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:52:36.556Z"}
+{"level":"info","message":"Acceso a la página de registro","timestamp":"2023-12-09T02:52:40.376Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:52:40.583Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T02:53:32.436Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T03:56:07.028Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T03:56:13.053Z"}
+{"level":"info","message":"Logout exitoso - Mail: mauricio@gmail.com ","timestamp":"2023-12-09T03:56:17.918Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T03:56:18.107Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T04:00:25.317Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T04:00:39.081Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T04:18:52.352Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T04:18:57.991Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:19:00.556Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:20:10.543Z"}
+{"level":"info","message":"Acceso exitoso al perfil - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T04:20:32.540Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:20:47.358Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:21:20.885Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:22:36.458Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:22:43.627Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:22:59.685Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:23:27.821Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:25:12.465Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:27:10.522Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:27:19.326Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:27:36.504Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:28:30.421Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:31:02.106Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:31:10.154Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:31:14.260Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:31:52.495Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:32:46.139Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T04:32:52.005Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T19:02:36.932Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-09T19:03:51.747Z"}
+{"level":"info","message":"Inicio de sesión exitoso como administrador - Administrador: adminCoderPrueba@coder.com","timestamp":"2023-12-09T19:03:58.945Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:04:02.893Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marcas-1 Nombre: Atari Gris","timestamp":"2023-12-09T19:07:58.855Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:08:03.003Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marcas-2 Nombre: Super Nintendo - Negra","timestamp":"2023-12-09T19:10:57.041Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:11:13.669Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:12:49.315Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:13:19.813Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574bbc00b46a1b44e031eb1 - Nombre: Super Nintendo - Negra","timestamp":"2023-12-09T19:28:34.660Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marca-3 Nombre: Nintendo 64 - Gris","timestamp":"2023-12-09T19:59:11.290Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T19:59:16.594Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marca-4 Nombre: Nintendo 64 - Negra - Mangas largas","timestamp":"2023-12-09T20:00:45.224Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T20:07:19.854Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marca-5 Nombre: Comodore64 - Gris","timestamp":"2023-12-09T20:07:30.899Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:07:35.458Z"}
+{"level":"info","message":"Producto de nombre Comodore64 - Gris editado correctamente","timestamp":"2023-12-09T20:07:55.009Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:07:55.379Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:08:13.133Z"}
+{"level":"info","message":"Producto de nombre Super Nintendo Clásica - Negra editado correctamente","timestamp":"2023-12-09T20:08:41.807Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:08:42.204Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Marca-6 Nombre: Super Nintendo - Marca en Colores","timestamp":"2023-12-09T20:09:54.083Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:10:06.060Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-1 Nombre: Super Mario 85 - Negra","timestamp":"2023-12-09T20:13:56.224Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-2 Nombre: Super Mario Bross - Blancoa","timestamp":"2023-12-09T20:14:43.467Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T20:14:47.815Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-3 Nombre: Super Mario Bross - Cartucho Classic","timestamp":"2023-12-09T20:16:08.321Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-4 Nombre: Super Metroid - Negra","timestamp":"2023-12-09T20:19:02.747Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:05:36.926Z"}
+{"level":"info","message":"Producto de nombre Super Metroid - Negra editado correctamente","timestamp":"2023-12-09T21:07:00.010Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:07:00.425Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574cbb60b46a1b44e031ef3 - Nombre: Super Metroid - Negra","timestamp":"2023-12-09T21:07:06.066Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-5 Nombre: Asteroids - Negra","timestamp":"2023-12-09T21:10:49.119Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-6 Nombre: Space Invaders- Negra","timestamp":"2023-12-09T21:14:35.545Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-7 Nombre: Super Mario - Rosa","timestamp":"2023-12-09T21:15:14.133Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:15:24.848Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:15:44.763Z"}
+{"level":"info","message":"Producto de nombre Super Mario - Rosa editado correctamente","timestamp":"2023-12-09T21:16:09.552Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:16:09.962Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:16:14.293Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:19:13.227Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-8 Nombre: Legend of Zelda - Link","timestamp":"2023-12-09T21:19:22.063Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-9 Nombre: Duck Hunt","timestamp":"2023-12-09T21:22:38.560Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-10 Nombre: Paper boy - Azul","timestamp":"2023-12-09T21:25:54.644Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-11 Nombre: Pacman - Magenta","timestamp":"2023-12-09T21:28:48.218Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:28:53.722Z"}
+{"level":"info","message":"Producto de nombre Pacman - Celeste editado correctamente","timestamp":"2023-12-09T21:29:06.087Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:29:06.479Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-12 Nombre: Super Mario Bros 3","timestamp":"2023-12-09T21:30:18.200Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-13 Nombre: Super Mario Bros - Todos los personajes","timestamp":"2023-12-09T21:30:49.922Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-14 Nombre: Centipede - Verde","timestamp":"2023-12-09T21:32:44.406Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-15 Nombre: Super Mario - Tabla Períodica","timestamp":"2023-12-09T21:33:37.602Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-16 Nombre: Metroid - Negra","timestamp":"2023-12-09T21:34:35.474Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-17 Nombre: Punch Out! - Negra","timestamp":"2023-12-09T21:38:20.439Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:38:23.618Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T21:38:26.684Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-18 Nombre: Super Mario 85 - Gris","timestamp":"2023-12-09T21:40:07.608Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-19 Nombre: Legend of Zelada","timestamp":"2023-12-09T21:41:37.392Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-20 Nombre: Pong - Gris","timestamp":"2023-12-09T21:43:35.400Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-21 Nombre: Final Fantasy - Negro","timestamp":"2023-12-09T21:45:40.487Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-22 Nombre: Pacman - Tortugas Ninja - Negro","timestamp":"2023-12-09T21:46:39.654Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-23 Nombre: Space Invaders- Star Trek - Negro","timestamp":"2023-12-09T21:47:43.455Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:48:17.433Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:48:17.595Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:48:17.748Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:48:17.900Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-24 Nombre: Pacman - Negro","timestamp":"2023-12-09T21:48:41.856Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-25 Nombre: Space Invaders - Game over - Negro","timestamp":"2023-12-09T21:50:02.912Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:52:52.045Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-26 Nombre: Castlevania - Mangas largas","timestamp":"2023-12-09T21:53:00.297Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-27 Nombre: Pacman - Fantasma Rosa - Negra","timestamp":"2023-12-09T21:53:58.580Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-28 Nombre: Pacman - Fantasma Rojo - Negra","timestamp":"2023-12-09T21:54:26.788Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-29 Nombre: Pacman - Fantasma Naranja - Negra","timestamp":"2023-12-09T21:55:04.925Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-30 Nombre: Pacman - Fantasma Azul - Negra","timestamp":"2023-12-09T21:55:35.558Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-31 Nombre: Contra - Perla","timestamp":"2023-12-09T21:57:36.609Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-32 Nombre: The last ninja - Negra","timestamp":"2023-12-09T21:59:37.830Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\vistas.router.js:271:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-09T21:59:37.861Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-33 Nombre: The last ninja - Negra","timestamp":"2023-12-09T21:59:47.038Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-35 Nombre: Space Invaders - Negra","timestamp":"2023-12-09T22:01:01.597Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-36 Nombre: Kung Fu - Negra","timestamp":"2023-12-09T22:02:27.540Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-37 Nombre: Super Mario - Yoshi - Celeste","timestamp":"2023-12-09T22:03:47.355Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-38 Nombre: Pacman - Game Over - Negra","timestamp":"2023-12-09T22:05:21.686Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Juegos-39 Nombre: Legend Of Zelda - Start - Gris","timestamp":"2023-12-09T22:06:38.003Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T22:06:46.526Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T22:06:54.892Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-1 Nombre: Disquete Amiga - Morada","timestamp":"2023-12-09T22:11:07.669Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-2 Nombre: Family Game Joystick - Gris","timestamp":"2023-12-09T22:11:49.813Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-3 Nombre: Family Game Joystick -Azul","timestamp":"2023-12-09T22:12:16.852Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-4 Nombre: Family Game Joystick - Gris","timestamp":"2023-12-09T22:12:43.055Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-5 Nombre: Family Game Joystick - Negra","timestamp":"2023-12-09T22:13:26.982Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-6 Nombre: Family Game Joystick - Level Up - Negra","timestamp":"2023-12-09T22:14:08.636Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-7 Nombre: Family Game Joystick - Like adults - Negra","timestamp":"2023-12-09T22:14:39.190Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-8 Nombre: Family Game Joystick - Vistas - Negra","timestamp":"2023-12-09T22:15:08.489Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-9 Nombre: Family Game Joystick - Básica - Negra","timestamp":"2023-12-09T22:15:36.162Z"}
+{"level":"info","message":"Producto creado correctamente - Id: Joystick-10 Nombre: Family Game Joystick - Diagrama - Negra","timestamp":"2023-12-09T22:16:04.053Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-09T22:16:32.186Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-09T23:25:14.914Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-09T23:25:25.674Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:25:28.413Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574bbc00b46a1b44e031eb1 - Nombre: Super Nintendo Clásica - Negra","timestamp":"2023-12-09T23:25:31.324Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574c9020b46a1b44e031ec7 - Nombre: Comodore64 - Gris","timestamp":"2023-12-09T23:25:44.244Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:26:02.752Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:26:13.821Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:38:52.832Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:39:12.924Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:39:51.691Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:40:14.572Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:40:29.083Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:43:38.558Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:44:06.301Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-09T23:47:03.637Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-10T00:44:22.630Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T00:44:27.401Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T03:26:26.092Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:18:59.832Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:54:21.132Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T04:56:39.531Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-10T21:49:06.811Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-10T21:49:15.281Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:49:18.752Z"}
+{"level":"info","message":"Producto creado correctamente - Id: TA-1801 Nombre: PRUEBA","timestamp":"2023-12-10T21:49:43.613Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:49:50.561Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:52:14.636Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-10T21:52:19.512Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574bb0e0b46a1b44e031eab - Nombre: Atari Gris","timestamp":"2023-12-11T03:52:02.805Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-11T04:02:18.333Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-11T20:34:59.295Z"}
+{"level":"info","message":"Producto creado correctamente - Id: VideoGame-1 Nombre: Family Game Clásico","timestamp":"2023-12-12T01:02:04.504Z"}
+{"level":"error","message":"No se pudo crear correctamente el producto req.logger.warn is not a function","stack":"TypeError: req.logger.warn is not a function\n    at C:\\Users\\ACER\\Desktop\\CODER-BACKEND\\Desafíos\\def16-AlonsoMauricio\\src\\router\\products.router.js:74:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-12-12T02:02:48.600Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-12T03:57:09.043Z"}
+{"level":"info","message":"Acceso exitoso a la página de administrador","timestamp":"2023-12-12T03:57:11.859Z"}
+{"level":"info","message":"Inicio de sesión exitoso como administrador - Administrador: adminCoderPrueba@coder.com","timestamp":"2023-12-12T03:57:36.174Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T03:57:39.528Z"}
+{"level":"info","message":"Producto de nombre Atari Gris Oscuro editado correctamente","timestamp":"2023-12-12T03:57:51.858Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T03:57:52.265Z"}
+{"level":"info","message":"Producto de nombre Atari Gris Perla editado correctamente","timestamp":"2023-12-12T04:36:05.207Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T04:36:06.635Z"}
+{"level":"info","message":"Acceso exitoso a productos - Administrador","timestamp":"2023-12-12T04:43:56.002Z"}
+{"level":"info","message":"Acceso exitoso a detalle producto Id: 6574bb0e0b46a1b44e031eab - Nombre: Atari Gris Oscuro","timestamp":"2023-12-12T04:46:29.366Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-12T20:55:42.065Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-13T02:39:53.411Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-13T02:42:09.691Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-13T02:51:47.289Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-13T03:02:14.031Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-13T03:02:29.893Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-13T03:03:04.672Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-13T03:04:19.217Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-13T03:04:38.956Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-13T03:09:18.449Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-13T03:09:29.678Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-14T02:18:38.028Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T02:28:32.156Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:28:48.583Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:29:37.867Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-14T02:30:07.795Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-14T02:30:13.817Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T02:35:29.835Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:35:41.691Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T02:54:34.166Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T02:54:56.284Z"}
+{"level":"info","message":"Carrito de id 657509e7a3113cf105053349 encontrado exitosamente","timestamp":"2023-12-14T02:55:27.743Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:56:03.423Z"}
+{"level":"info","message":"Carrito de id 657509e7a3113cf105053349 encontrado exitosamente","timestamp":"2023-12-14T02:56:26.046Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:56:44.142Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:58:00.889Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:58:41.211Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T03:05:01.717Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:05:51.672Z"}
+{"level":"error","message":"Error al acceder a la ruta de ver carrito con ID - Detalle: carritoResponse is not defined","timestamp":"2023-12-14T03:05:51.689Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:07:09.156Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:07:44.494Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:08:33.144Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:08:56.568Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:10:38.676Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:13:03.474Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:13:29.032Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:18:52.941Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:19:03.517Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:40:04.310Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:40:32.941Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:41:17.023Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T03:41:30.142Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:41:50.428Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:41:55.550Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:42:15.689Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:42:47.468Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T03:42:59.305Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T03:43:11.067Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:43:36.110Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:44:19.476Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T03:55:35.058Z"}

@@ -33,21 +33,26 @@
 
 {{#if hasProducts}}
  <div class="grid">
-        {{#each productos }}
-        <article class="card product-item">
-             <header class="card__header">
-                <h2 class="product__title">{{ this.title}}</h2>
-            </header>
-            <div class="card__image">
-                <img class="dbimg"src={{this.thumbnail}}
-                    alt="Product">
-            </div>
-        </article> 
+
+
+          {{#each productos }}
+      
+      
+      <aside class="card card2">
+          <div class="containerImgMenu">
+          <img class="dbimg" src={{this.thumbnail}} alt={{ this.title}}/>
+        </div>
+        <div class="containerIngredientes">
+        <h3 class="textotituloMenu">{{ this.title}}</h3>
+          <h4 class="textotituloMenu">Precio: $ {{this.price}} </h4>
+          <p> Stock: {{this.stock}}</p>
+        </div>
         <a href="DBProducts/{{ this._id }}">Más detalles</a>
         <a href="editarProducto/{{ this._id }}" class="editar-producto">Editar Producto</a>
         <a href="eliminarProducto/" class="eliminar-producto" data-product-id="{{ this._id }}">Eliminar</a>
-        
+       </aside>
         {{/each }}
+
     {{else}}
     <h1> ¡No se encontraron productos! </h1>
     {{/if}}

@@ -181,7 +181,7 @@ const borrarProducto = async (req, res, next) => {
   }
 };
 
-const editarProducto = async (req, res, next) => {
+const editarProducto = async (req, res) => {
   try {
     const id = req.params.id;
     const producto = req.body;
@@ -235,26 +235,20 @@ const editarProducto = async (req, res, next) => {
         );
       }
     }
+
     const productoEditado = await ProductosRepository.editarProducto(
       id,
       producto
     );
 
-    res.locals.redireccionar = true;
-    res.locals.productoEditado = productoEditado;
+    res.status(200).json({ productoEditado });
   } catch (error) {
-
-    res.locals.redireccionar = false;
-    res.locals.error = {
-      codigo: error.codigo || tiposDeError.ERROR_INTERNO_SERVIDOR,
-      mensaje: "Error inesperado",
+    res.status(error.codigo || tiposDeError.ERROR_INTERNO_SERVIDOR).json({
+      error: "Error inesperado",
       detalle: error.message,
-    };
-  } finally {
-    next(); 
+    });
   }
 };
-
 
 module.exports = {
   listarProductos,
