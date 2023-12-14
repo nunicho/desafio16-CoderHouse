@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+  const mongoose = require("mongoose");
 const carritosRepository = require("../dao/repository/carritos.repository.js");
 const carritosModelo = require("../dao/DB/models/carritos.modelo.js");
 const productosModelo = require("../dao/DB/models/productos.modelo.js");
@@ -17,6 +17,52 @@ const verCarritos = async (req, res) => {
     res.status(500).json({ error: "Error interno del servidor" });
   }
 };
+/*
+const verCarritoConId = async (req, res, next) => {
+  try {
+    const cid = req.params.cid;
+
+    if (!mongoose.Types.ObjectId.isValid(cid)) {
+      throw new CustomError(
+        "ERROR_DATOS",
+        'Requiere un argumento "cid" de tipo ObjectId válido',
+        tiposDeError.ERROR_DATOS,
+        "El cid proporcionado no es válido"
+      );
+    }
+
+    const carrito = await carritosRepository.verCarritoConId(cid);
+
+    if (!carrito) {
+      throw new CustomError(
+        "CARRITO_NO_ENCONTRADO",
+        `El carrito con ID ${cid} no existe`,
+        tiposDeError.CARRITO_NO_ENCONTRADO,
+        `El carrito con ID ${cid} no existe.`
+      );
+    }
+
+    const productosEnCarrito = carrito.productos.map((productoEnCarrito) => ({
+      producto: {
+        ...productoEnCarrito.producto._doc,
+      },
+      quantity: productoEnCarrito.cantidad,
+    }));
+
+    const carritoResponse = {
+      _id: carrito._id,
+      productos: productosEnCarrito,
+    };
+
+    // Enviar la respuesta al cliente
+    res.status(200).json(carritoResponse);
+  } catch (error) {
+    // Manejar errores y enviar una respuesta de error al cliente
+    res.status(500).json({ error: "Error interno del servidor" });
+  }
+};
+*/
+
 
 const verCarritoConId = async (req, res, next) => {
   try {
@@ -56,9 +102,11 @@ const verCarritoConId = async (req, res, next) => {
 
     next();
   } catch (error) {
+    console.log(error); 
     res.status(500).json({ error: "Error interno del servidor" });
   }
 };
+
 
 const crearCarrito = async (req, res) => {
   try {
