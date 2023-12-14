@@ -62,51 +62,6 @@ const verCarritoConId = async (req, res, next) => {
   }
 };
 
-/*
-const verCarritoConId = async (req, res, next) => {
-  try {
-    const cid = req.params.cid;
-
-    if (!mongoose.Types.ObjectId.isValid(cid)) {
-      throw new CustomError(
-        "ERROR_DATOS",
-        'Requiere un argumento "cid" de tipo ObjectId válido',
-        tiposDeError.ERROR_DATOS,
-        "El cid proporcionado no es válido"
-      );
-    }
-
-    const carrito = await carritosRepository.verCarritoConId(cid);
-
-    if (!carrito) {
-      throw new CustomError(
-        "CARRITO_NO_ENCONTRADO",
-        `El carrito con ID ${cid} no existe`,
-        tiposDeError.CARRITO_NO_ENCONTRADO,
-        `El carrito con ID ${cid} no existe.`
-      );
-    }
-
-    const productosEnCarrito = carrito.productos.map((productoEnCarrito) => ({
-      producto: {
-        ...productoEnCarrito.producto._doc,
-      },
-      quantity: productoEnCarrito.cantidad,
-    }));
-
-    res.locals.carritoDB = {
-      _id: carrito._id,
-      productos: productosEnCarrito,
-    };
-
-    next();
-  } catch (error) {
-    console.log(error); 
-    res.status(500).json({ error: "Error interno del servidor" });
-  }
-};
-
-*/
 const crearCarrito = async (req, res) => {
   try {
     const carritoToAdd = req.body;
@@ -132,7 +87,7 @@ const crearCarrito = async (req, res) => {
           throw new CustomError(
             "ERROR_DATOS",
             "ID inválido",
-            tiposDeError.ERROR_DATOS,
+            tiposDeError.ERROR_ID_CARRITO,
             "El ID proporcionado no es válido."
           );
         }

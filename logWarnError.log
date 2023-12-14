@@ -840,3 +840,16 @@
 {"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:43:36.110Z"}
 {"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:44:19.476Z"}
 {"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T03:55:35.058Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-14T20:16:40.078Z"}
+{"level":"info","message":"Acceso a la página de inicio de sesión","timestamp":"2023-12-14T20:24:54.352Z"}
+{"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-14T20:25:03.846Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:25:06.619Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:27:00.648Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:27:42.276Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:27:50.365Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:30:15.703Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:31:16.591Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T20:38:47.403Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T20:45:50.698Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T20:46:13.214Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de crear carrito","timestamp":"2023-12-14T20:46:38.008Z"}
