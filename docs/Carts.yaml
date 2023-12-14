@@ -38,6 +38,30 @@ paths:
           description: Carrito no encontrado
         "500":
           description: Error interno del servidor
+  /api/carts/purchase:
+    post:
+      summary: Crea un nuevo carrito
+      tags:
+        - Carritos
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCartRequest'
+      responses:
+        "201":
+          description: Carrito creado correctamente
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CartResponse'
+        "400":
+          description: Datos de entrada no válidos
+        "404":
+          description: Producto no encontrado
+        "500":
+          description: Error interno del servidor
 components:
   schemas:
     Cart:
@@ -50,6 +74,42 @@ components:
             properties:
               producto:
                 type: string  # Puedes ajustar el tipo según el tipo de ObjectId en tu base de datos
+                description: ID del producto en el carrito
+              cantidad:
+                type: integer
+                description: Cantidad del producto en el carrito
+        amount:
+          type: number
+          description: Precio total del carrito    
+    CreateCartRequest:
+      type: object
+      properties:
+        products:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+                description: ID del producto
+              quantity:
+                type: integer
+                description: Cantidad del producto en el carrito
+      required:
+        - products
+    CartResponse:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID del carrito creado
+        productos:
+          type: array
+          items:
+            type: object
+            properties:
+              producto:
+                type: string
                 description: ID del producto en el carrito
               cantidad:
                 type: integer
