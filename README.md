@@ -14,15 +14,15 @@ Mauricio Javier ALONSO
 
 ## 3. TITULO DESAFIO ENTREGABLE: 
 
-Tercera práctica integradora
+Documentar API
 
 ## 4. N° DESAFIO ENTREGABLE: 
 
-N° 15
+N° 16
 
 ## 5. CONSIGNA DESAFIO ENTREGABLE: 
 
-Aspectos a incluir: recuperación de contraseña; nuevo rol premium. 
+Realizar la configuración necesaria para tener documentado tu proyecto final a partir de Swagger. 
 
 
 ## 6. Usuario Administrador:
@@ -82,4 +82,9 @@ Para acceder a esta ruta está incorporado un link en el login
 
 ## 16 Cambio de rol
 Para acceder a esta ruta está incorporado un link en el home (para ello hay que ingresar como usuario)
+
+## Rutas para Swagger
+Las rutas para Swagger son:
+http://localhost:3050/api-docs/   ------->(development)
+http://localhost:8080/api-docs/   ------->(production)
 
