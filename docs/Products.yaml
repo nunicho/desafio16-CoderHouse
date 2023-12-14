@@ -4,6 +4,40 @@ paths:
       summary: Obtiene todos los productos
       tags:
         - Productos
+      parameters:
+        - name: pagina
+          in: query
+          description: Número de página a obtener
+          required: false
+          schema:
+            type: integer
+            default: 1
+        - name: filtro
+          in: query
+          description: Filtro por título
+          required: false
+          schema:
+            type: string
+        - name: codeFilter
+          in: query
+          description: Filtro por código
+          required: false
+          schema:
+            type: string
+        - name: sort
+          in: query
+          description: Opción de ordenamiento
+          required: false
+          schema:
+            type: string
+            enum: ["price_asc", "price_desc"]
+        - name: limit
+          in: query
+          description: Límite de resultados por página
+          required: false
+          schema:
+            type: integer
+            default: 10
       responses:
         "200":
           description: Los Productos fueron obtenidos OK desde la Base de Datos
