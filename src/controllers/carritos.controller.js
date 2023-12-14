@@ -17,7 +17,7 @@ const verCarritos = async (req, res) => {
     res.status(500).json({ error: "Error interno del servidor" });
   }
 };
-/*
+
 const verCarritoConId = async (req, res, next) => {
   try {
     const cid = req.params.cid;
@@ -54,16 +54,15 @@ const verCarritoConId = async (req, res, next) => {
       productos: productosEnCarrito,
     };
 
-    // Enviar la respuesta al cliente
+
     res.status(200).json(carritoResponse);
   } catch (error) {
     // Manejar errores y enviar una respuesta de error al cliente
     res.status(500).json({ error: "Error interno del servidor" });
   }
 };
-*/
 
-
+/*
 const verCarritoConId = async (req, res, next) => {
   try {
     const cid = req.params.cid;
@@ -107,7 +106,7 @@ const verCarritoConId = async (req, res, next) => {
   }
 };
 
-
+*/
 const crearCarrito = async (req, res) => {
   try {
     const carritoToAdd = req.body;
@@ -228,5 +227,6 @@ module.exports = {
   verCarritos,
   verCarritoConId,
   crearCarrito,
+ 
 };
 

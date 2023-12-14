@@ -17,7 +17,7 @@ router.get("/", (req, res) => {
   }
 });
 
-router.get("/:cid", (req, res) => {
+router.get("/:cid", async (req, res) => {
   try {
     req.logger.info(`Acceso exitoso a la ruta de ver carrito`);
     carritosController.verCarritoConId(req, res);

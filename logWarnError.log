@@ -807,3 +807,21 @@
 {"level":"info","message":"Inicio de sesión exitoso - Usuario: mauricio@gmail.com","timestamp":"2023-12-14T02:30:13.817Z"}
 {"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T02:35:29.835Z"}
 {"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:35:41.691Z"}
+{"level":"info","message":"Acceso exitoso a productos - Usuario","timestamp":"2023-12-14T02:54:34.166Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T02:54:56.284Z"}
+{"level":"info","message":"Carrito de id 657509e7a3113cf105053349 encontrado exitosamente","timestamp":"2023-12-14T02:55:27.743Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:56:03.423Z"}
+{"level":"info","message":"Carrito de id 657509e7a3113cf105053349 encontrado exitosamente","timestamp":"2023-12-14T02:56:26.046Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:56:44.142Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:58:00.889Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T02:58:41.211Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carritos","timestamp":"2023-12-14T03:05:01.717Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:05:51.672Z"}
+{"level":"error","message":"Error al acceder a la ruta de ver carrito con ID - Detalle: carritoResponse is not defined","timestamp":"2023-12-14T03:05:51.689Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:07:09.156Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:07:44.494Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:08:33.144Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:08:56.568Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:10:38.676Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:13:03.474Z"}
+{"level":"info","message":"Acceso exitoso a la ruta de ver carrito","timestamp":"2023-12-14T03:13:29.032Z"}
